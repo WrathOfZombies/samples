@@ -1,0 +1,6 @@
+- name: Blank snippet
+  description: Create a new snippet from a blank template.
+  host: ONENOTE
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/onenote/onenote/default.yaml
+  group: Onenote

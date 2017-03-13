@@ -1,0 +1,86 @@
+- name: Basic API call
+  description: Colors the selected text in red.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/word/default.yaml
+  group: Word
+- name: Basic API call
+  description: Colors the selected text in red.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/basic-api-call.yaml
+  group: Basics
+- name: Basic document assembly
+  description: Basic document assembly capabilities of the Word JavaScript API.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/basic-doc-assembly.yaml
+  group: Basics
+- name: Basic API call
+  description: Colors the selected range in yellow.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/get-built-in-properties.yaml
+  group: Basics
+- name: Insert formatted text
+  description: Shows how to use formatting objects as well as applying pre-built styles.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/insert-formatted-text.yaml
+  group: Basics
+- name: Get Custom Document Properties
+  description: ' Shows how to retrieve the current document''s custom properties.'
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/custom-properties-access.yaml
+  group: Basics
+- name: Inline pictures
+  description: Shows how to insert and get inline pictures.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/insert-and-get-pictures.yaml
+  group: Basics
+- name: Insert header
+  description: Demonstrates how to insert a header in the document.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/insert-header.yaml
+  group: Basics
+- name: Insert breaks
+  description: Shows how to insert page and line breaks in a document.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/insert-line-and-page-breaks.yaml
+  group: Basics
+- name: Insert locations.
+  description: Shows how to insert content using the different available locations.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/insert-in-different-locations.yaml
+  group: Basics
+- name: Read-write custom document properties
+  description: >-
+    This sample shows how to add custom document properties of different types
+    and how to read them as well.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/read-write-custom-document-properties.yaml
+  group: Basics
+- name: Scroll to range
+  description: Shows how to scroll to a range with and without selection.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/scroll-to-range.yaml
+  group: Basics
+- name: Search
+  description: Shows basic and advanced search capabilities.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/basics/search.yaml
+  group: Basics
+- name: Table cell access
+  description: Shows how to access a specific cell in a table.
+  host: WORD
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/word/tables/table-cell-access.yaml
+  group: Tables

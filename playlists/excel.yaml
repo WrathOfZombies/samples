@@ -1,0 +1,90 @@
+- name: Blank snippet
+  description: Create a new snippet from a blank template.
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/excel/default.yaml
+  group: Excel
+- name: Basic API call
+  description: Colors the selected range in yellow.
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/basics/basic-api-call.yaml
+  group: Basics
+- name: API call with Fabric notification toast
+  description: >-
+    Highlights the currently-selected range and reports its address via a
+    Fabric-based notification toast.
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/general-starter-templates/api-call-with-notification-toast.yaml
+  group: General Starter Templates
+- name: Copy and multiply values
+  description: Explore the APIs to copy and multiply values in a range
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/range/copy-multiply-values.yaml
+  group: Range
+- name: Report generation
+  description: >-
+    Writes data to the workbook, reads and applies basic formatting, and adds a
+    chart bound to that data.
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/general-starter-templates/report-generation.yaml
+  group: General Starter Templates
+- name: Formatting
+  description: Explore the APIs to format a range
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/range/formatting.yaml
+  group: Range
+- name: 'Insert, delete, clear range'
+  description: 'Explore the APIs to inset, delete and clear a range'
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/range/insert-delete-clear-range.yaml
+  group: Range
+- name: Selected range
+  description: Explores the APIs for the currently selected range
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/range/selected-range.yaml
+  group: Range
+- name: 'Add, delete, rename and move worksheet'
+  description: >-
+    Explore the APIs to add, delete, rename and change the position of a
+    worksheet
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/worksheet/add-delete-rename-move-worksheet.yaml
+  group: Worksheet
+- name: Hide and unhide worksheet
+  description: Explore the APIs to hide and unhide a worksheet
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/worksheet/hide-unhide-worksheet.yaml
+  group: Worksheet
+- name: Set and get values
+  description: Explores the APIs to set and get values from a range
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/range/set-get-values.yaml
+  group: Range
+- name: Active worksheet
+  description: Explore the APIs to get and set the active worksheet
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/worksheet/activeworksheet.yaml
+  group: Worksheet
+- name: List worksheets
+  description: Explore the API to list the worksheets in the workbook
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/worksheet/list-worksheets.yaml
+  group: Worksheet
+- name: Worksheet range and cell
+  description: Explore the APIs to get a range or a cell in a worksheet.
+  host: EXCEL
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/excel/worksheet/worksheet-range-cell.yaml
+  group: Worksheet

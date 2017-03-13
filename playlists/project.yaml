@@ -1,0 +1,6 @@
+- name: Blank snippet
+  description: Create a new snippet from a blank template.
+  host: PROJECT
+  gist: >-
+    https://raw.githubusercontent.com/WrathOfZombies/samples/deployment/samples/project/project/default.yaml
+  group: Project
