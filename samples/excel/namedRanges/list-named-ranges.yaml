@@ -1,0 +1,64 @@
+id: ''
+gist: ''
+source: EXCEL
+author: Microsoft
+name: List all named ranges in a workbook
+description: List all named ranges in a workbook
+script:
+  content: |-
+    $("#list-named-ranges").click(listNamedRanges);
+
+    async function listNamedRanges() {
+      try {
+        await Excel.run(async (context) => {
+
+          const namedRanges = context.workbook.names.load();
+          await context.sync();
+
+          console.log("This workbook contains " + namedRanges.items.length + " named items.");
+
+          for (let i = 0; i < namedRanges.items.length; i++) {
+            console.log(JSON.stringify(namedRanges.items[i])) + "\n";
+          }
+          await context.sync();
+        })
+      }
+        catch (error) {
+          OfficeHelpers.Utilities.log(error);
+        }
+    }
+  language: typescript
+style:
+  content: "section.samples {\r\n    margin-top: 20px;\r\n}\r\n\r\nsection.samples .ms-Button, section.setup .ms-Button {\r\n    display: block;\r\n    margin-bottom: 5px;\r\n    margin-left: 20px;\r\n    min-width: 80px;\r\n}\r\n"
+  language: css
+template:
+  content: |-
+    <section class="ms-font-m">
+        <p>This sample shows how to list all the defined named ranges using the Excel JavaScript API. Note that this snippet lists the results in the console below.</p>
+    </section>
+
+    <section class="samples ms-font-m">
+        <h3>Try it out</h3>
+        <button id="list-named-ranges" class="ms-Button">
+            <span class="ms-Button-label">List named ranges</span>
+        </button>
+    </section>
+  language: html
+libraries: |
+  // Office.js
+  https://appsforoffice.microsoft.com/lib/1/hosted/office.js
+
+  // CSS Libraries
+  office-ui-fabric-js@1.4.0/dist/css/fabric.min.css
+  office-ui-fabric-js@1.4.0/dist/css/fabric.components.min.css
+
+  // NPM libraries
+  core-js@2.4.1/client/core.min.js
+  @microsoft/office-js-helpers@0.6.0-beta.7/dist/office.helpers.min.js
+  jquery@3.1.1
+
+  // IntelliSense: @types/library or node_modules paths or URL to d.ts files
+  @types/office-js
+  @types/core-js
+  @microsoft/office-js-helpers@0.6.0-beta.7/dist/office.helpers.d.ts
+  @types/jquery
